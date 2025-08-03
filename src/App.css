@@ -2,6 +2,12 @@ html, body, #root {
   height: 100%;
   margin: 0;
 }
+.app{
+min-height: 70vh;
+min-width: min-content;
+max-width: 1500px;
+margin: auto;
+}
 
 .app-container {
   min-height: 100vh;

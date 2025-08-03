@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./LoginForm.css";
+import { Link } from "react-router-dom";
 
 const LoginForm = () => {
   const [form, setForm] = useState({
@@ -45,6 +46,7 @@ const LoginForm = () => {
         />
 
         <button type="submit">Login</button>
+       <h4> Don't have an account ?<Link to="/registerForm"> Register here</Link></h4>
       </form>
     </div>
   );

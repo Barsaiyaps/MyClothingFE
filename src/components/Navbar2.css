@@ -5,27 +5,33 @@
   box-sizing: border-box;
 }
 
-.navbar {
+.navbar2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  padding: 5px 40px;
+  padding: 1rem 2rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   font-family: "Segoe UI", sans-serif;
 }
 
-.nav-logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #111;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-family: cursive;
-  font-size: 4rem;
-  cursor: pointer;
-;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #e91e63;
 }
 
 .nav-cart {

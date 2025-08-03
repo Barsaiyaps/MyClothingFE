@@ -1,22 +1,18 @@
-
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Navbar2 from "./components/Navbar2";
 import Footer from "./components/Footer";
-import Carousel from "./components/Carousel";
-import RegisterForm  from "./components/RegisterForm";
-import LoginForm from "./components/LoginForm";
-import StoreList from "./components/StoreList";
-import ProductForm from "./components/ProductForm";
+import AllRoute from "./routes/AllRoute";
+
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Carousel />
-      < RegisterForm />
-      <LoginForm />
-      <StoreList />
-      <ProductForm />
+     <Navbar />
+     <Navbar2/>
+    <div className="app">
+      <AllRoute />
+   </div>
       <Footer />
     </>
   );
